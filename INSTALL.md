@@ -24,7 +24,7 @@ This poker game is made specifically for the aforementioned OS, and possibly oth
     - By using the command ssh -x in Powershell
     - Or going to connection->ssh->x11->check the box that says “enable x11 forwarding” if using PuTTy
 2. Unzip the Poker_V1.0.tar.gz with the command: gtar xzvf Poker_V1.0.tar.gz
-3. When the Poker_Beta.tar.gz tar file is successfully extracted, switch to the directory that you just extracted with the command: ```cd Poker_V1.0.tar.gz```.
+3. When the Poker_V1.0.tar.gz tar file is successfully extracted, switch to the directory that you just extracted with the command: ```cd Poker_V1.0.tar.gz```.
 4. Type ```make all``` to build the executables
 5. Type ```cd bin``` to go to the directory with executables
 6. Run the command ```./PokerServer 10070``` to start the server
